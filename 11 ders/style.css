@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    border-bottom: 3px dotted #eee;
+}
+.conteyner{
+  
+    padding: 30px 0 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li a{
+    font-size: 20px;
+    color: black;
+    transition: 0.5s;
+}
+.home{
+    color: #AAAAAA;
+}
+
+nav ul li a:hover{
+    color: #AAAAAA;
+}
+.classic{
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.classic p{
+    font-size: 22px;
+}
+.icone i{
+    font-size: 12px;
+     margin: 0 4px;
+}
+.aa{
+    margin: 0 auto;
+    width: 1220px;
+
+   
+}
+.ab{
+    margin: 30px 0;
+    display: flex;
+
+    justify-content: space-between;
+    
+}
+.men{
+    margin: 30px 0;
+}
+.men h1{
+    font-size: 34px;
+}
+.men span{
+    font-size: 14px;
+    color: #AAAAAA;
+}
+.ana{
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.text{
+  margin: 30px 0;
+}
+.text h2{
+    font-size: 34px;
+}
+.img{
+    display: flex;
+
+}
+.text1{
+
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+.text1 i{
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.section2{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.section2 button{
+    width: 143px;
+    height: 45px;
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.section2 button:hover{
+    background-color: black;
+    color: white;
+}
+.p{
+    color: #AAAAAA;
+}
+
+.img1{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.backimg{
+    width: 250px;
+    height: 250px;
+    background-image: url(https://templatemo.com/templates/templatemo_571_hexashop/assets/images/explore-image-02.jpg);
+}
+.backimg2{
+    width: 250px;
+    height: 250px;
+    background-image:url(https://templatemo.com/templates/templatemo_571_hexashop/assets/images/explore-image-01.jpg);
+}
+.rr{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+
+.dd{
+    color: #AAAAAA;
+}
+.inputbox{
+    display: flex;
+    margin-top: 30px;
+}
+
+.input{
+    width: 287px;
+    height: 23px;
+    padding: 10px;
+    margin: 0 20px 0 0;
+}
+.input input:checked{
+  border: 3px solid black;
+}
+.box{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px 0 0;
+    background-color: black;
+    color: white;
+}
+.eyni{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+.reng{
+    color: #AAAAAA;
+}
+footer{
+    background-color: black;
+}
+.sss{
+    color: white;
+}
+.boxs1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-evenly;
+}
